@@ -13,6 +13,12 @@ const scene = new THREE.Scene()
 const geometry = new THREE.BoxGeometry(1, 1, 1)
 const material = new THREE.MeshBasicMaterial({ color: 0xff0000 })
 const mesh = new THREE.Mesh(geometry, material)
+
+//moving on Position
+
+mesh.position.setX(0.8);
+mesh.position.setY(-0.8);
+mesh.position.setZ(0.8);
 scene.add(mesh)
 
 /**
